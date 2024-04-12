@@ -6,7 +6,7 @@
 - CPU : ESP32S3
 - Battery : 3.7V 400mAh
 
-![Phox-MB](/image/MB.jpg)
+![Phox-MB](image/MB.jpg)
 - PhoxのメインボードにはESP32S3を用いている
   - ESP32S3は、ビルドインのUSBシリアル変換を用いることでプログラム可能な構成としている
   - なお、書き込みデバイスについてであるが、私の環境ではUSB-Cの半田付けが上手くできなかったため、一般的なUSBケーブルを切って、XHを打ったものを用いている
@@ -23,7 +23,7 @@
     - が、ステンシルはそれなりに高価なのでお金と時間を考えて相対効果の高いほうを選ぶのが得策だろう
   - リフローの方法についてはGoogleで探せばいろいろ見つかるだろうし、あまり私がやっている方法は推奨されないのでここには記さないこととする
 - 完成した基板にUSBをつなげて、Arduino IDE上でCOMポートが認識されていれば問題なし
-- IDEでボードの種類をeps32->「ESP32S3 Dev Module」で選択し、[CameraServer](/CameraWebServer_Phox_version)を書き込んでシリアルモニタに表示されたhttpアドレスにアクセスし、「Start Stream」をクリックして、カメラの画像が表示されれば基板完成となる
+- IDEでボードの種類をeps32->「ESP32S3 Dev Module」で選択し、[CameraServer](CameraWebServer_Phox_version)を書き込んでシリアルモニタに表示されたhttpアドレスにアクセスし、「Start Stream」をクリックして、カメラの画像が表示されれば基板完成となる
 
 ### ドアスイッチモジュール
 - PhoxのMBのスイッチング用の磁気スイッチと測距センサを備えたモジュール
